@@ -1,0 +1,17 @@
+$(".admin-create-room").click(function(){
+  $(".box").show();
+  $(".create-room").show();
+});
+$(".admin-close").click(function(){
+  $(".create-room").hide();
+  $(".box").hide();
+});
+$(".update").click(function(){
+  //$(".box-1").show();
+  $(".update-room").show();
+});
+$(".admin-close").click(function(){
+  $(".update-room").hide();
+  $(".box").hide();
+});
+//$(".update-room")

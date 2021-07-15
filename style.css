@@ -1,0 +1,233 @@
+body{
+  font-family: "Montserrat" !important;
+  text-align: center!important;
+}
+
+.heading-section{
+    background-image: url("images/background_img.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 0px;
+}
+.admin-heading-section{
+  background-image: url("images/admin-background.jpg");
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 0px;
+}
+.student-heading-section{
+  background-image: url("images/student-background.jpg");
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 0px;
+}
+
+.hideform {
+display: none;
+}
+.container {
+  position: relative;
+}
+.box{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity:0.9;
+  z-index: 9;
+}
+.form-background-img{
+  width: 420px;
+  height: 500px;
+  margin:0px 400px 0px 0px;
+}
+.form-div {
+  z-index: 9;
+  width: 800px;
+  height: 500px;
+  margin: 50px 580px 10px 280px;
+  background: white;
+  position: absolute;
+  text-align:center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.option{
+  position: absolute;
+  margin:170px 0px 0px 550px;
+}
+.index-close{
+  position: absolute;
+  margin-left: 760px;
+}
+.create-room{
+  z-index: 9;
+  width: 500px;
+  height: 460px;
+  padding: 0px 40px 50px 40px;
+  margin: 0px 600px 10px 450px;
+  background: white;
+  position: absolute;
+  text-align:center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form-body{
+  margin: 30px 0px 0px 0px;
+
+}
+
+.create-room-para,.update-room-para{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.close{
+  float: right;
+  margin: 10px;
+}
+
+.admin,.student{
+  position: absolute;
+  margin:115px 0px 0px 500px;
+}
+.register{
+  position: absolute;
+  margin:80px 0px 0px 500px;
+}
+#or-class{
+  margin: 30px;
+}
+.heading-text{
+  margin: 170px 0px 0px 0px!important;
+  text-align: center;
+  color: White!important;
+  font-size: 3.5rem!important;
+}
+.heading-para{
+  margin-top: 10px !important;
+  text-align: center;
+  color: White!important;
+  font-size: 1.5rem!important;
+  font-weight: 500;
+}
+
+.container-fluid{
+  padding:0 0 0!important;
+}
+
+.admin-navbar{
+  background-color: black;
+  opacity: 0.9;
+}
+.navbar{
+color: White!important;
+font-size: 1.5rem;
+}
+
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem!important;
+  margin-left: 7px;
+}
+
+
+.search{
+  padding:50px 250px 100px 250px;
+
+}
+.search-text{
+  height: 60px!important;
+}
+.search-btn{
+  width: 150px;
+}
+#features{
+  padding: 7% 10%;
+  position: relative;
+}
+.feature-box{
+  padding: 5%;
+  text-align: center;
+}
+.img-svg{
+  width: 200px;
+  height: 200px;
+}
+.middle-text{
+  text-align: center;
+  font-weight: 450;
+}
+.middle-para{
+  text-align: center;
+  padding: 2% 5%;
+}
+#testimonials{
+  background-color: #eeebdd;
+  text-align: center;
+  }
+#testimonial-heading{
+  padding-top: 10%;
+  padding-bottom: 0px;
+}
+.testimonial-text{
+  font-size:3rem;
+  line-height:1.2;
+}
+ .testimonial-image{
+   width:10%;
+   border-radius: 100%;
+   margin: 20px;
+ }
+
+.carousel-item{
+  padding: 5% 15% 10% 15%;
+}
+#cta{
+  background-color: #ffaaa7;
+  padding: 12% ;
+  }
+#cta-note{
+    font-family: "Montserrat" !important ;
+    font-size: 3.5rem!important;
+    line-height: 1.5 !important;
+    color: #fff;
+    font-weight: 500 !important;
+}
+.download-button{
+  margin:5% 2% 5% 0;
+}
+
+#footer{
+   padding: 7% 15%;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+.admin-close{
+  margin-left: 98%;
+  margin-top: 2%;
+}
+.admin-table,.student-table,.st-alloted-table{
+  padding: 5%  5% 8% 5%;
+  opacity: 0.98;
+
+}
+.admin-th{
+  padding: 20px!important;
+}
+.update-room{
+  margin: 10px 650px 400px 400px;
+  position: absolute;
+  z-index:9;
+  width: 500px;
+  height: 460px;
+  padding: 0px 40px 50px 40px;
+  background: white;
+  position: absolute;
+  text-align:center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
